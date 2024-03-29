@@ -179,8 +179,8 @@ const About = () => {
                 <div>{item.stage}</div>
                 {/* icons  */}
                 <div className="flex gap-x-4">
-                {item.icons?.map((icon, itemIndex)=>{
-                  return <div className="text-2xl text-white " key={itemIndex}>{icon}</div>
+                {item.icons?.map((icon, iconIndex)=>{
+                  return <div className="text-2xl text-white " key={iconIndex}>{icon}</div>
                 })}
                 </div>
               </div>;
